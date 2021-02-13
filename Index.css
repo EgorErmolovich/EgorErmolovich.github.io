@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.menu{
+    font-weight: bold;
+    color: white;
+    background-color: #45015d;
+    border-radius: 15px;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.menu a{
+    color: inherit;
+    width: 100%;
+    display: block;
+    text-decoration-line: none;
+    padding: 8px 16px;
+    box-sizing: border-box;
+}
+.menu a:hover{
+    color: black;
+    background-color: white;
+}
+h1{
+    font-weight: 400;
+    font-size: 64px;
+}
+.main{
+    margin-left: 355px;
+    margin-right: 40px;
+    margin-top: 80px;
+}
+.images img{
+    width: 45%;
+    border-radius: 7px;
+    margin: 6px;
+    opacity: 0.7;
+}
+.images img:hover{
+    opacity: 1;
+}
+h2{
+   color: #45015d;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+hr{
+    border: 5px solid #45015d;
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.member{
+    width: 30%;
+    display: inline-block;
+    padding: 8px;
+}
+.member img{
+    width: 100%;
+    border-radius: 6px;
+    filter: grayscale(30%);
+}
+.opisanie{
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    padding: 2px 16px 5px;
+}
+.position{
+    color: darkgray;
+}
+.Tariff{
+    width: 40%;
+    display: inline-block;
+    padding: 0 8px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 30px;
+    border-radius: 7px;
+}
+.Tariff ul{
+    list-style: none;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+.Tariff li{
+    border-bottom: 2px solid darkgray;
+    border-radius: 7px;
+}
+.prise{
+    font-weight: bold;
+}
+.Tariffname{
+    font-weight: bold;
+    background-color: purple;
+    border-radius: 7px;
+    padding: 20px;
+    color: white;
+}
+.Tariffnamepro{
+    background-color: red;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+}
+.pro{
+    border-color: red;
+    background-color: red;
+    color: white;
+}
+button{
+    background-color: white;
+    color: purple;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin: 7px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+}
+.pro:hover{
+    background-color: white;
+    color: red;
+    border-color: white;
+}
+input{
+    margin: 15px;
+    padding: 8px;
+    width: 100%;
+    display: block;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    background-color: purple;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    color: #ccc;
+}
+input[type="submit"]:hover{
+    color: purple;
+    background-color: #ccc;
+    cursor: pointer;
+}
+.footer{
+    background-color: #f1f1f1;
+    padding: 32px 58px;
+    text-align: right;
+}
+.footer a{
+    color: black;
+}
